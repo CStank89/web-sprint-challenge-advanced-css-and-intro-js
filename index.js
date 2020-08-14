@@ -213,6 +213,9 @@ const artists = [
 
 /* Task 2: There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
 
+// artists[9].name = 'Vincent Van Gogh'
+
+// console.log(artists[9]);
 
 
 /* Task 3: Create a function called `getArtistByIndex` that takes two arguments:
@@ -224,11 +227,11 @@ const artists = [
  * it will return `The artist at index 0 is Amedeo Modigliani`.
 */
 
-function getArtistByIndex(array, id) {
-     return `The artist at ${array[id]} is ${array.id}`   
-    }
+// function getArtistByIndex(array, id) {
+//      return `The artist at index ${id} is ${array.name}`   
+//     }
 
-  console.log(getArtistByIndex(artists, 4));
+//   console.log(getArtistByIndex(artists[1], 1));
   
 
 
@@ -284,12 +287,12 @@ and returns an array with names of artists who painted more than 100 paintings.
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ..."Albrecht Dürer"]*/
 
-function lotsOfArt(/* Code here */){
-
-  /* Code here */
-
+function lotsOfArt(arr){
+  if (paintings > 100){
+  return arr; 
 }
-
+console.log(lotsOfArt);
+}
 
 
 // 🎨🎨 STRETCH 🎨🎨//
@@ -315,12 +318,14 @@ The function should console.log 50 chunks of HTML code that match the structure 
 
 ‼️ You do **NOT** need to get these to display on your page, but you can copy and paste the result into your HTML file if you'd like to see what that would look like. */
 
-function getHTML(/* Code here */){
+function getHTML(data){
+      for(let i = 0; i < artist.length; i++){
 
-    /* Code here */
+      }
+    return data;
 
   }
-
+console.log();
 
 /* STRETCH 2: Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order. */
 
