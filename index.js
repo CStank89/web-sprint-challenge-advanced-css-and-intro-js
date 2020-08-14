@@ -254,11 +254,11 @@ const artists = [
  * 
  * Note that sucessfully invoking this function multiple times without refreshing your browser will continuously remove artists from the array until there are none left. If you refresh your browser, the data will reset.  
 */
-function removeArtist(/*code here*/) {
-    /* code here */
-  }
-  
- 
+function removeArtist(array, index){
+  delete artists.index;
+  return array;
+}
+  console.log(removeArtist.artist[1]);
 
 /**
 /* Task 6: Create a function called `addArtist` that can accept an object of information and add it to the artists array. Then, add a 21st artist to the array (you) with custom information!👩‍🎨👨‍🎨
@@ -288,12 +288,15 @@ and returns an array with names of artists who painted more than 100 paintings.
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ..."Albrecht Dürer"]*/
 
 function lotsOfArt(arr){
-  if (paintings > 100){
+  if (arr[7] > 100){
   return arr; 
 }
-console.log(lotsOfArt);
-}
+  else{
+  return false
+  }
 
+}
+console.log(artists.lotsOfArt);
 
 // 🎨🎨 STRETCH 🎨🎨//
 
